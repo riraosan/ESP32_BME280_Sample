@@ -291,6 +291,9 @@ void initAutoConnect(void) {
 }
 
 void setup(void) {
+  pinMode(0, OUTPUT);
+  digitalWrite(0, LOW);
+
   initLED();
   initAutoConnect();
   initBME280();
