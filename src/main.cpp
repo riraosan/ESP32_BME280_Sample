@@ -24,6 +24,8 @@ SOFTWARE.
 
 #define TS_ENABLE_SSL  // Don't forget it for ThingSpeak.h!!
 #include <Arduino.h>
+//#include <LittleFS.h>
+//#define SPIFFS LittleFS
 #include <AutoConnect.h>
 #include <BME280Class.h>
 #include <Button2.h>
@@ -34,7 +36,7 @@ SOFTWARE.
 #include <WebServer.h>
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
-#include <secrets.h>
+#include <secrets_sample.h>
 #include <timezone.h>
 
 // log

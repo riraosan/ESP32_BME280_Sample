@@ -38,5 +38,6 @@
     },
     "cSpell.words": [
       "tzoff"
-    ]
+    ],
+    "workbench.editor.tabActionLocation": "left"
 }
